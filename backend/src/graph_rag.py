@@ -266,7 +266,7 @@ def normalize_verdict_string(raw_verdict: str) -> str:
         return "FAŁSZ"
     if "MANIP" in cleaned:
         return "MANIPULACJA"
-    if "PRAW" in cleaned:
+    if "PRAW" in cleaned or "TRUE" in cleaned:
         return "PRAWDA"
     return "NIEZWERYFIKOWANE"
 
@@ -277,9 +277,11 @@ def resolve_model_name(client: OpenAI, default_model: str) -> str:
         return configured
     try:
         models_response = client.models.list()
-        for item in models_response.data:
-            if "bielik" in item.id.lower():
-                return item.id
+        model_ids = [item.id for item in models_response.data]
+        for candidate in ["qwen", "gemma", "llama", "mistral", "bielik"]:
+            for mid in model_ids:
+                if candidate in mid.lower():
+                    return mid
     except Exception:
         pass
     return default_model
@@ -294,8 +296,14 @@ def call_slm(
     if not api_key:
         return None
 
-    base_url = os.getenv("LLM_BASE_URL", "https://ollama.com/v1")
-    default_model = "SpeakLeash/bielik-11b-v2.3-instruct:Q4_K_M"
+    base_url = os.getenv("LLM_BASE_URL")
+    if not base_url:
+        if api_key.startswith("gsk_"):
+            base_url = "https://api.groq.com/openai/v1"
+        else:
+            base_url = "https://ollama.com/v1"
+
+    default_model = os.getenv("LLM_MODEL", "qwen/qwen3.8-27b")
 
     edges_representation = "\n".join([f"- ({s}) --[{r}]--> ({t})" for s, r, t in subgraph_edges])
     docs_representation = "\n\n".join(context_docs[:3])
