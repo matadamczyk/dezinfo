@@ -1,0 +1,3002 @@
+[
+  {
+    "text": "Powiedziałem do domu i do roboty!",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Sorry ale dzisiaj nie ma opozycji. Jest grupa cwaniaków chcących odzyskać stołki.",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "I teraz: co robić? 😓",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Zastosuję się do Twojego motto: nie będę się do Ciebie odzywał. Nie ma do kogo.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Dobrze że nic nie piłem bo też bym się zaksztusił.😁😁😁. Ten jeden gif wystarczy,jako komentarz, za 100 słów.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Mogę Panu pożyczyć kilka książek.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Noż ku...a jakie to symptomatyczne😁😁😁😁",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "To nie ja się jaram, że ktoś coś pokazuje na palcach.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Jestem. Czy moja odpowiedź spowoduje, że powie Pan coś z sensem?",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "Piotr Rogucki to bóg i strasznie się cieszę, że udało mi się być u niego na koncercie, zrobić zdjęcie i porozmawiać",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Tunezja to raczej na połowie Belgii, bo na połowie Anglii to raczej nie bywała zbyt często :D CC: @MRusiecki",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Ty kurwa @anonymized_user nie pierdol w tv bo sie żygać chce",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "a co się tak pieniedzmi nagle przejmujesz ? Jak chcialas rozwiazania kontraktu z Zohnova czy Pop to kasa juz nie wazna ?",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Tak, tak niech retweetuje i popiera rozdawanie polskich paszportów na lewo i prawo.",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "Och, nie będę miarodajna, bo w ostatnim roku czytałam same starocie.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Weź się chłopie nie ośmieszaj. Pajacuje to wasz trener, że wysyła asystenta na konferencje.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Naprawdę dało się to zauważyć?😁😁😁",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "w politykę to sie bawi Pierwsza Prezes SN....nie zauważyła Pani????",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Halo Kraków, kogo byście uznali za gwiazdę/najważniejszego zawodnika obecnej Wisły? 😉",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Z dziecmi, o matko, w koszulce pod kurtką?",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "No cóż. Widać że dziczy w Polsce nie brakuje",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Prędzej sam na raka trzustki zejdę niż Jarkacz",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Bild po wczorajszej demolce przy Ł3: \\\"Po co w LM takie ogórki? III-ligowy Trier sprawił BVB w P. Niemiec więcej problemów niż Legia w LM\\\"",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Mam pytanie: jaki jest cel tego postu?",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Zgadzam się w 100 %",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Napisałam ale on nie odpisał, a wyświetlił nie wiem, może jest zajęty, smutno mi będzie jak zignoruje mnie całkiem wiec 🤷‍♀️",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Przynajmniej czwartki z Ligą Europy też mogą być ciekawe pod tym względem 😜",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "ciekawe czy faktycznie jest taki zakład bo jeśli tak to nieźle XD",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "skoro często podważano takie umowy to moge poznać przykłady ?",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "A gdzie rodzice tych dzieci?",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Ma już swastykę na ryju?",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "robię teraz test bagażnikowy a co u was",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Najwyższa pora przestać wierzyć w bajki. I pogonić tych wszystkich złodziei i zboczeńców w sutannach i habitach do Watykanu.",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "Weźcie se kolejnego Popka albo hardkorowego koksa 😂",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Przy straconych bramkach inni zawinili, nie ma sensu czepiać się Lukasa.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Głódź jest mistrzem mistrzów w mistrzostwie zwanym dostosuj się do warunków i zacznij doić",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "Mówię szczerze czarny chuj nie ma wstępu",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "A wiadomo od kiedy dokładnie był zawodnikiem Wisły ? Był już na jakichś treningach ?:)",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Nie zdziwie się jakoś bardzo, jak tak będzie.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "jeszcze tylko półtora godziny o 18 i wolneeeeeeee",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "raz. Ale potem się okazało, że to był borsuk.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "super skarb kibica.Składy nieaktualne, niektóre dane nieprawdziwe.Nawet nie wiem kto jest liderem strzelcôw...",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Taki będzie temat obrad czy znowu zrobi z siebie idiotę?",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "Pudło roku już znamy. Wczorajszy finał kobiet U-19, Hiszpania przegrywa 1:2 z Francją, doliczony czas i... https://t.co/XLptHrcfUj",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "może u mnie to już uzależnienie 😉",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "No prawdziwy kapitan. Dobrą muszą mieć tam atmosfere.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Kwestia wrażliwości sponsora. STS dba o każdy detal, który ich dotyczy.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Diler wydający rachunek za narkotyki po płatności kartą kredytową. Tego jeszcze nie było. Misiło i wszystko jasne.#Woronic…",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Nigdzie się nie czuje tak bezbronna, jak w dziale śrubki. Brrr!",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Swoją drogą to ciekawe jak można nie mieć żadnych wątpliwości, pisdzielce to geniusze",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "kto chce mi polajkować ostatnie zdjęcie na insta? odwdzięcze się, może być też f4f bo mój instagram umarł ;(",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Panie kochany, masz Cristiano, więc miej wywalone na Ruganiego :D",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Jak byś zjadła 3 więcej to już byś niebyla taka szczęśliwa ;)",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "moge się zgodzić że jeszcze trzeba dać czas Sobolowi ale jakby mu dali trenera od którego można się czegoś nauczyć",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "2/2 może się dogadali żeby oficjalnie kwota była niższa bo wałki robią :)",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "piosenka Julki Wieniawy mi mocno weszła i cały czas ją śpiewam uh",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "autorstwa @anonymized_user zapomniałam dodać, ale jest znak wodny ;-)",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Jak można tak nie mieć honoru @jakubiak_marek?",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Jak bym nie wiedział, teraz to mnie wkurwiłeś",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Niestety i tak by siedział na ławce...",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Bóg sie pisze przez ch czy przez h",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Jaka ta Kamilusia mądra. Szkoda tylko ,że w jedną stronę. Ale jakie to typowe dla Po-Now.",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "Głupi jesteś. Czytaj ze zrozumieniem i nie rób z siebie debila. No chyba że już za późno.",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "Dopiero teraz wpadło, jak sędzia Tarnowski oszukał Wigry i @anonymized_user w sobotę. Żenujące. https://t.co/mk4biuf8Fi",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "No tak, ale nie zależy to zupełnie od liczby przebiegniętych kilometrów.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Koń, który mówi. I jeszcze łże jak bura suka.",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "śmieszne w chuj.A jakie kreatywne.Chyba nikt o tym jeszcze nie pisał",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "Tym hajlującym człowiekiem jest Piotr Wacowski wieloletni i zaufany operator TVN https://t.co/HUeDyaORgq",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Z tego, co pamietam, to z czerwieni dla Burligi w Szczecinie nikt afery w klubie nie robił, kopnięcie podobne 😛",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Chuj Cię to obchodzi! :)",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Mucha ma post od postów.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Najlepiej będzie jak się kutasie od nas odpierdolisz razem z twoimi kolegami z PiSu",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "tytuł w sam raz na urlop.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "C O xd jeszcze powiedz, że miała na imię Marta, tak jak moja to mnie nic nie zdziwi",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Wielgus dla protestujących to jak mecenas Qń dla posła Gawlowskiego😁",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "A po co ma się odnosić ? Może niech się jeszcze odniesie do ostatniego odcinka Na Wspólnej.",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "Tak z ciekawości chciałam zpytać czy udało mu sie odkręcić to pomyłkowe głosowanie? Czy ktos, coś słyszal?",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "A Atletico to nie Madryt ? :D",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Walka o kasę z PJS - Stal St.Wola (wg stat. @anonymized_user na ost. mecze wpuszcza na minutę rez. bramkarza w pole żeby wyrobił 5 spotkań :D",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "nie ładnie się śmiać z cudzego nieszczęścia! :D",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Według mnie mecz bez historii na 0-0",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "a niektórzy zapłacili i nie mogą oglądać bo są problemy... Ja oglądam na niemieckich i nie narzekam",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Jestem na diecie, więc dziś tylko 30 😋😄",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Tam znowu protest czy po prostu jest ich tak mało, że nie ma sensu prowadzić dopingu ? 😂",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "omg ale jestem wyjebana po tym wykładzie",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Nie no, Lewy czy Błaszczykowski szli za granicę już późno, jeśli chodzi o samo wyszkolenie.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Prezes by się w lustrze obejrzał, też miał dentystę w podstawówce.",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "a co miał nie wychodzic do tej piłki ?",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Tylko to nie oznacza, że PZPN nie mógł więcej zaoferować Nawałce, gdyby była taka potrzeba.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Ps jak znajdę więcej takich numerów to dodam!!!!",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Oj Ulka Ulka dam ci dobrą rade: Jak facet ma na imię Bartek to znaczy, że coś z nim jest nie tak #mjakmiłość",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "JA JESTEM NORMALNY JA CHCE TYLKO ZAPOZOWAĆ Z ROWEREM PANI SYNA #topmodel",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Bo dla doraźnych celów politycznych gotowi są poświęcić nawet niepełnosprawne dzieci.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Dobra, nie szukam drugiego dna :-)",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "chciałeś się pochwalić że coś wiesz ? Mamy klaskać ?",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "Największy cham z polityków to Niesiołowski !!! Rudzielcu.",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "Pierwszy sukces już za Wami! Nie pomyliłeś stroju z \\\"Kolorowym piątkiem\\\" 😀 Trzymam kciuki!",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Spójrz na koszulki Parmy - możesz mieć solidną konkurencję 😜",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "co sezon słysze że w Chojnicach trzeba wstrząsnąć zespołem :)",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "A idąc na całość możesz coś ugrać ( przynajmniej jest szansa) i na trzeźwy rozum wydedukujesz ze wracam z gruba gotówką",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Znowu się czegoś nacpałeś i bredzisz",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "Nie wiem czy by sobie życzyli. Zostawmy im tę chwilę 😊",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Widze, że jebie w główkę mocniej i mocniej...",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "Poseł Misiło już dawno popadł w umysłowy niebyt😁😁",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "Jutro od 9.50 w #Woronicza17 na antenie @anonymized_user temat na początek, to Waszym zdaniem? | Głosujemy | Podajemy dalej |…",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Mój tata chce tak dzieciom drzwi otwierać wieczorem",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "jaja i tak już są.Powinni ich wypierdolić dyscyplinarnie jak to mawiał Tomaszewski.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "naprawdę chcę usiąść komuś na kolanka i wtulic się czyjąś szyję",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Może po to pojechał na cmentarz w nowym Sączu",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Do pierwszego jest spóźniony, to na pewno.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Nie nie nie nie bo ja Cię po niej kojarzę już bardzo długo 😂",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "A jest? Popatrz do słownika i sprawdź znaczenie słów.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Powiedz to temu botu @anonymized_user myśli że dzięki niemu",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Przynajmniej wiem, ze wchodziła w konwersacje ale po co XD",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "A Mariott dla ciebie i dworu ile kosztował?",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "Jezu ile moich mutualsow ma dzisiaj urodziny!!!",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Also muszę się ogarnąć bo dzisiaj jeszcze jadę do pracy",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Konkordat był po to, żeby usankcjonować finansowanie kk z budżetu państwa.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Znalazła pani już na siebie pomysł po wyborach ? Bo to ,że nie będzie już pani posłem to wiemy",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Czesze się tam gdzie Rutkowski.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "from: me to: my tl jedyne legendy to jonas brothers i hannah montana, miłego życia.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Jadnak mas coś z głową",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Wy napewno. Wy walczyliście o powrót do PRL-u.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Wiem co mogłoby \\\"uratować\\\" posła Piętę... niech ogłosi, że wszystko to nieprawda, bo jest....gejem 🤪",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "Dla tego, który leży, ostatni.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Jestem w rozsypce, jak tu być polakiem, jak iść do kościola z taka wysypką i kateram?",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Nie chce mi się wierzyć, ze Kostia po to podpisywał tam na 3 lata, żeby zgodzić się na rozwiązanie po roku.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Czego się spodziewać po członku żydowskiego amerykańskiego lobby. Lata na kolanach przed żydami zrobiło swoj…",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "Ok dzięki ale.juz zobaczyłem w tv. Niema coś mody na Jage w Białym. Czym to spowodowane? Drogie bilety?",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Ktorego nie zrealizujesz w Polsce",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Tylko ludzie o wybitnym guście smakowym doceniają smak szpinaku",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "i jak zapatrujesz się na grę w IV lidze ? Bo ponoć na wiosne mieliśmy tam grać",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Rozpieszczeni czym ? Wpierdolem od Macedończyków ?",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "Polsat boi się popka, nikt nie chce z nim tańczyć",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "ojciec was gwałcił, trafiłem, nie wstydź się",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "Umarłam i trafiłam do kabaretowego nieba :)",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Oj, były różne absurdalne głosy, ale z różnych krajów ;)",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Nikt nigdy nie rozsiewał takiego smrodu jak @KrystPawlowicz",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "Z hitow Lis w amoku z polskiej listy wściekłych hien, na prowadzeniu sam Lis.",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "I po co te ubliżanie",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "ok każdy wierzy w to co chce.Pozdro",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "słowo \\\"gości\\\" zostało wyciszone 😜",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Niech @anonymized_user machnie się za mizulmana to zaraz zmieni zdanie😁😁😁. Kompletne zglupienie😁😁",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "Tak, tak to zazwyczaj wygląda, gdy jacyś mlodzi zawodnicy na co dzień z jedynką trenują. I to nie jest odkrycie.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Cristiano w Realu jest w tej roli genialny. Lewandowski w Bayernie równiez świetny.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "55 tys kibiców na meczu z ogorkami jak oni to robią",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Nikt nie będzie brał udziału w 3 edycji skoro w ostatniej były takie jaja z nagrodami.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Dziwny jesteś ff mebli forte 80 eksportu do niemiec, mlekowita 50 % eksport do ue, okna, transport",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Było. W każdych zimowych wiadomościach od X lat :)",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "A skad tacy panowie jak @anonymized_user @anonymized_user jak z podlasia to dupa",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "Gdzie jest @anonymized_user . Brudziński jesteś kłamcą i marnym kutasem @MSWiA_GOV_PL",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "Musiał jest na poziomie Gila, ale jest medialny i sympatyczny dlatego jest kreowany na jednego z najlepszych w Polsce.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "gdzie są jakieś fajne braletki koronkowe?",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "A miało być tak pięknie....",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Zaspana jestem jeszcze sorki XD",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Myślałem, że po bramce są największe brawa 🤔",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Préstamo a un año con opción de compra para Ever Valencia y Cristian Echavarria al Wisla Cracovia de Polonia @DIM_Oficial",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "a jak dostanie miesiąc wolnego ? :D",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Skoro Willem II przebija naszą oferte dla naszego najlepszego zawodnika to trudno patrzeć z optymizmem w przyszłość...",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Każdy jeden klecha zrobi dla kasy wszystko i bez skrupułów.",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "znów pada nazwisko śp. Lecha Kaczyńskiego na litość Boską on nie żyje i nie ma jak się bronić ! #bezRetuszu",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Codziennie w czyste piżamki, pedanci",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Ile tam jest szczęścia 😍",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "ubierz tą bluzę podczas meczu z Legią !:)",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "i zimowej parady buldożków francuskich w strojach mikołaja. #CzegoBrakuje",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Jak się pije jak Ruskie to ciężko rozpoznać ;-)",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "A z OFE to nasze czasem też nie były........",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Ale to Cionek gra łokciami, bo się 8 lat temu kolega Niedzielan poskarżył 😄",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "Caly czas sra tt, chyba ma sraczkę",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "Zasadnicze pytanie brzmi: jakim cudem znalazła się pani na debacie EKSPERCKIEJ?",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Mamy do czynienia z najgorszym prezydentem RP w historii. Kropka.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Tak żyje proboszcz jak mu rada parafialna pozwala.",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "Skoro podpisują Owczarzak to znaczy że zostaje",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Nieboli ze przegrana tylko boli ze sędzia znów pomógł przeciwnikowi który był dziś słabszy od nas",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Niezły zawodnik, ale w Legii by na niego nie spojrzeli.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "tępa już pozostanie ,tego się nie leczy",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "Lepiej niech się ksiądz zajmuje swoimi kolegami, tymi, których komuna i SB przygarnęła.",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "Nie lecisz do GB? Polecisz i nie dostaniesz wizy do polski, persona non grata",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Skoro ręka Veleza to był karny to tutaj tak samo.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "spokojnie, na krytyke jeszcze przyjdzie czas :) @Bartolino78",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Oglądałem tylko Rostowskiego i dyr urzędu skarbowego, żenada, komisja za dużo słowo na tą pisowskiej bandę",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "nie masz wyjścia, trzeba zapierdalać",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Nie znamy się ale wszystkiego najlepszego! 🔥🙋",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "dziękuje pięknej pani o ślicznym uśmiechu x",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Bicie piłkarzy to akurat specjalność Legii.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Gdyby nie Malarz, to Legii w eliminacjach europejskich pucharów by nie było 😉",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Ale można to gdzieś zobaczyć oprócz u Ciebie na tt ?xD",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "PLANY MOBILIZACYJNE WOT NA WYPADEK WOJNY Z DANIĄ ZAKŁADAJĄ ŻE ODDZIAŁ ZIEMOWITA KOSSAKOWSKIEGO ZAJMIE LEGOLAND",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "Przejrzałeś mnie. Ja pogryzłam i teraz zwalam.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Jasne, jeśli Cię nie zanudziłam, dobranoc xx",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "*stoi przed nimi król gargulców* betty: to pewnie ethel XDDDDDDDDDDDDDD #Riverdale #RiverdalePL",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Tak poza tym to pojechalibyśmy do domu bardzo chetnie ale mam prace dzisiaj i w niedziele",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Zacząłeś robić za prymasa pajacu?",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "Lecz się kobieto na nogi bo na głowę już zbyt późno",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "Ciekawe, uruchomieniem czyjej klauzuli postraszyło PSG... 😜",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Chyba niechodzi o Polonię Warszawa",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Sekta, cha, cha, cha, obudź się z hipnozy, jesteś bolszewikiem",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "nie zapominaj o Pucharze Oceanii :)",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "#Wypozyczeni Widzew - Górnik Ł. 3:0 Marcin Pigiel nie znalazł się w kadrze meczowej łodzian.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "I to ma być wiarygodne? To jedna wielka manipulacja na zlecenie Orbana",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "Można na różne sposoby atakować. My nie mieliśmy żadnego atutu.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Bo byliśmy bez formy, to oczywiste. Przecież to też napisałem.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Gruszkowa raz! Zdrowie towarzystwa tt😁",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "I o to właśnie chodzi. To całostronicowe ogłoszenie w dzisiejszym Expresie Ilustrowanym",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Grał w lidze Szkockiej to nadużycie.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "też obstawiam nie nową --\\u0026gt; Szott :) @JustaBlaszczyk",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "O kurwa ale jesteś głupi",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "A faszole z Włoch na czele. Czemu wpierdol nie dostali",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Pani @anonymized_user Wielki Szacunek dla Pani",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Z innej beczki- to slask ma ekipę dużo lepsza niż wtedy co zdobyli ostatniego majstra",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Przecież cała finezja Twittera polega na tym żeby zmieścić 280 znaków w 140.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Idź się leczyć sieroto po komunie.",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "To oglądaj Puchar Bałtyku :D Warto, choćby dla samego trofeum. Zerknij, jak ono wygląda :D",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Tak. Zawsze starszy rocznik o miejsce dla młodszego walczy.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "odcięli mu tlen bo nie dostał akredytacji hahaha dawno się tak nie uśmiałem.Dzięki !:)",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "W sumie to potrzebuję całego dnia na zimny prysznic",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Opętać to nie ale jakby był sygnał albo jakby ktoś odebrał to XDDD",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Necidowi też zaglądaliście w statystyki i je komentowaliście ?",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Dla mnie Więckiewicz najlepszy. Lepszy od Frycza i pozostałych.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Gennaro Gattuso: za słaby na prowadzenie Jagiellonii Białystok, we Włoszech trener wielkiego Milanu. 😁",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "No to czasem coś wpadnie w ucho czy masz nosa ? Zdecyduj się.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "kiedy on się dobrze zapowiadał ? Jak media pisały że go chce Chelsea ?",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "To jest w takim razie niedopatrzenie Zagłębia :)",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "nie wiem.Miały być dwa powroty, ale nie piłkarzy, więc może chodziło też o Sobola",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "A sam red. Kurowski za chwile w transmisji z ogloszenia kadry juz mówił na 'raczej'.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Jeśli chodzi o Europe to Małysz napewno więcej osiągnął niż Kubica",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "W mojej okolicy jest blok 18 piętrowy, też z jednym domofonem",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Bardzo zły argument, Amber gold, po chuj ten KRS , sprawozdania finansowe, deklaracje vat",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Zero pewności. Miał niejedną szansę i zazwyczaj było słabo.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Rozkurwil system żydowski oby tak dalej ;-)",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "- Jaką masz temperaturę? - 37,1. Żegnajcie kochani!",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "\\\"Zakazac miskowi inwestowania na Wiśle przez to ze miał wyrok\\\" - Chyba o to Ci chodzi",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Pierwsza linia frontu, szkoda że chełm na łeb nie wchodzi",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Piekny synek @anonymized_user może razem chodzili w rajtuzach",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "Liga wyrownana każdy ma szansę",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Posłuchałem rady RAZ. Wyłączyłem TVN. Nagle wszyscy naziści zniknęli. Nigdzie ich nie ma.",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "Skończyłam już studia i byłam jedynie korektorką w studenckim magazynie, ale może mogę w czymś pomóc. 😅",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Dziwne, że się nie nazywają \\\"głębokie gardło\\\".",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Gdzie jest mały faszystowski gnom @R_A_Ziemkiewicz",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "dziwny trochę jest ten nowy program dagmarki wole królowe życia",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Skutkiem nieudanej próby zagrania piłki, a nie niesportowego zachowania.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Jakby nadzwyczajna kasta tak laskawie sądziła zwykłych obywateli jak samych siebie, to więzienia byłyby puste, via @AndZyber…",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "W Twoim przypadku tępy jest i wpis, i autor.",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "Nikt cię nie czyta, za cienki trolek jesteś",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "Mam śniegowce na - 50, 3 razy większe niż normalne butu",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Z sercem na jednej dłoni i kutasem w drugiej.",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "Self Fulfilling Prophecy wykonawcy Full dub https://t.co/TuS3XR15HY",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Może ogłuszyły go te korki od szampanów, które strzelały po podpisaniu kontraktu Sadloka z Jagiellonią ?",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Jakie pranie, trzeba coś z tym zrobić, im wiecej ludzi ma świadomość tym lepiej",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Czekam z utęsknieniem na delegalizację ONRu",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "OGLĄDAMY Z MAMĄ TO NOWE JAKA TO MELODIA I JESTEŚMY ZAŻENOWANE XDDDD",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "A jak tam koalicję z PiSem?",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Z plastiku. Z papieru stoi obok.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Wystarczy poczytać takich jak @anonymized_user plus odrobina wiedzy. To wystarczy.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Nie pytaj, co rząd może zrobić dla ciebie. Zapytaj, czy mógłby tego nie robić.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "ok kto pije herbatę cały rok rt kto tylko na jesień fav it's for science",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "A to nie prawda honor ponad życie",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Myślę, że jest różnica pomiędzy Twitterem a telewizją publiczną. Poza tym - \\\"porzygu\\",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Ja umrę za dobre słowo",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Ale to w nowym przekładzie, jeszcze nie czytałam.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Jeszcze było pytanie kim jest Jezus Ipanienko \\\"Chodźmy wszyscy do stajenki, do Jezusa i Panienki\\\" ☺",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Bo on jest inteligentny jak żywopłot przed wiosennym przycinaniem.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Nawet w takiej chwili chciałbyś mieszać w sport politykę. Debilu.",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "I stwierdziliście że trzeba je przywłaszczyć",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "a może nic w nim nie widzą ? Mają go brać tylko dlatego że jest młody ?",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Wygrać seta i mieć spokój. Włosi będą mega spięci, bo nie mają minimalnego marginesu błędu.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Dlaczego nie zasłużyła? Była dużo słabsza od Chorwacji, ale na pewno nie od Nigerii i Islandii.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Widzieliście kiedyś siebie we śnie? Bo ja nie",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "I jeszcze jedno sprostowanie: Mam na myśli Damiana J.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "hahaha. No tak, przy Leo mój bardziej przypomina chomika niż psa.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "To nie sankcje, po prostu Dudę w dupie mają.",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "Ale masz fana, nie wiem czy nie trzeba doktora",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Węgiel kurwa, stawiaj na węgiel @michalkarnowski",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Zapomnij, prezes żyje? Kto opiekuje się kotem?",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Jest pierwsza ucieczka!!! http://t.co/dz5thHl5bz",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Dobra, mam co trzeba. Dzięki! :)",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "To tylko po to żeby podzielić się doświadczeniami w tej sprawie",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "I niezależnie od tego czy ktoś ma tytuł naukowy czy nie. Zauważyłem nawet, że bardziej u osób utytułowanych",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "W IPN, w tym jebanym trzonie, gosopodarność taki chuj, doją, nepotyzm, szmal, narodowcy spod @anonymized_user @jakubiak_marek",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "Genialna para.obaj inteligentni inaczej,obaj ma usługach PiSu,tacy dwaj porzyteczni idioci.",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "A co on mu tam robi przy rozporku? To napewno figura z brązu?",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Z wypadku zrobiono morderstwo, z morderstwa zrobiono mit a z mitu politykę",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Proszę oglądnąć powtórkę bez komentarza bo komentarz daje wiarę sędziemu ale przecierz boguskiego zachaczono w polu karnym",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "A co z językiem polskim wprowadzanym do szkół w UK?",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "lepiej napisać że dostali wpierdol.A nie, bo ludzie którzy dostali po ryju by się mogli głupio poczuć.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Zgadza się, ale nie rozpoczął się wieczorem :)",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Skoro to dla ekspertów, to Serbia juz się chyba zakwalifikowała, bo ma 10 zwycięstw 😛",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Haha niedługo w dorzeszy zostanie tylko haha do gazu i Lisicki",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Ja też nazywam. I jeszcze nacjonalistyczną hołotą niegodną tego miejsca.",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "Masz może skład Pogoni z rocznikami?",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "o Wisłe to Ty się nie martw :) w czwartek mecz też o 18:30 ?",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "I wygra bo Polacy się nie obudzą",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "och, to też mój superman w kuchni. Jak coś średnio wyjdzie, On nadchodzi 😉",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Kurwa, jest jakieś 60 stopni dzisiaj....",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "#Woronicza17 Nic straconego, rozliczyć teraźniejszą Targowicę",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "Uuu. Co za subtelność. Od razu widać że to wybitna osobowość.",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "Już był taki jeden co machał rączkami. Kaszpirowski się nazywał i też tak bredził jak ty. Ręce, które leczą.....",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "Dewastując prawo, rozwalając gospodarkę i zadłużając państwo do monstrualnych poziomów.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Legia ze stolca Polski. Po dzisiejszym meczu tylko to rzuca się na język.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Wiesz że on jest w rajtuzach i bez majtek",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "A pani Dorota ma prowadzić program o sexie.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Splunęłam 3 razy przez lewe ramię, zagryzłam węglem posmarowanym czosnkiem i rzuciłam w kąt.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "A ludzie ze SKOK 38 mln Polactwa 5 mld",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Nawet jesli my bysmy nie chcieli, to Zagłębie by to zrobiło.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Bardzo dobrze mi sie żyje jako polski żyd z ukrainy nie ma w Polsce antysemityzmu z wyjątkiem @R_A_Ziemkiewicz",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Hahahaha no kto inny mógł skomentować frekwencje Wisły",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Bordeaux zdominowane w Gandawie, ale wyjeżdża z 0:0. Futbol.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "i całe szczęście bo nie potrzeba takich \\\"kibiców\\\"",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "🔜Znany z gry i pracy w @anonymized_user Tomasz Kulawik (do 01.2016 w OKS Brzesko-upadek klubu), został właśnie trenerem Olimpii Zambrów.#2liga",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Tak, Polsat Sport i otwarty Super Polsat :)",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Razem z I rundą w środę.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Wiem że musiałeś zrobić te ufff",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "A za pięć lat @anonymized_user ogarnie, że powinien jednak zmienić lekarza.",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "💔 nie że coś jest świetna, ale tęsknie za Louisem",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Urban powinien się od was uczyć. Jesteście żenujące gnojki. Aż przykro patrzeć.",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "Różnicy nie ma, bo pisali wtedy, że nie można zsyłać zawodników do rezerw ;P",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "\\\"No, ale więcej się po Tobie nie spodziewałem :)\\\" Zdecyduj się, zamiast błaznować.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "And the #OperaAwards2018 Director of the Year is... Mariusz Trelinski!",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "przeczytaj jeszcze raz wasze teksty o sprawie cierzniaka i sobie odpowiedz czy aby na pewno się nie pogrążasz",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "w Chinach nie mogą grać zagraniczni bramkarze.Agent musiał Cię zrobić w bambuko.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Pamiętacie jak robiłam gadane indy? Porobiłabym znowu ale musiałabym być sama a w akademiku nigdy nie jestem sama xd",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Pewnie w SPAL też się nie znają, skoro w styczniu do Serie A wzięli z Palermo jednak Cionka.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "No to kochana zapraszam, tylko mnie teraz nie ma XD",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "I co z tego, że Białystok słyszy. Białystok się cieszy, że wybrał właściwego posła, który godnie ich reprezentuje.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "płacz dzieci i wyzywanie klubu za 3... 2... 1...",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "wracaj szybko do zdrowia !:)",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Tak jak choćby po Wiśle udało się wygrać w Poznaniu :)",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Chce się pakować i iść spać bo jutro będzie ciężki dzień idk",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Już wydrukowałam listę posłów .N Teraz idę do sklepu po farby.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Tylko czemu link do tekstu z lutego? :P",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Modne ? A może po prostu mamy oczy i oglądamy każdy mecz Wisły ?",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "To jest chore śmierc wrogom ojczyzny",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "Nie nob dziekuję, chuj mu w dupę gruby",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "fajnie by bylo ale raczej nierealne",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Niemozna porównywa dzisiejszego meczu do meczu z jaga czy slaskiem czy Pogonią dziś walczyli Wislacy ale brakło umiejętności",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "No to jak się przegrywa cały czas to lepiej przestać grać :)",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Biało-Czerwoni brawo, brawo, brawo! Zbigniew Boniek i Adam Nawałka - wyrazy szacunku. Robert Lewandowski - wielkie podzięk…",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "\\\"Eärendil z Gondoliny był moim ojcem, matką Elwinga, córka Diora, a wnuczka Lúthien z Doriath. Zaś Elendil, Isildur i Anárion...\\\". #tired",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Znalazłam jakieś stare zeszyty i jestem w szoku jak ładnie wychodziło mi rysowanie obwodu szeregowych i równoległych XD",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Nie brnij w to, kto lepszy a kto gorszy, trzeba mieć rozum",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Teledysk do breathin wychodzi dzisiaj! Jestem taka ciekawa co Ari stworzyła aaaa",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Szymon J. By miał dożywocie w pisaniu bajek. ;)",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Twitter powstał dla takich wydarzeń jak #narodowagalaboksu 😂 Nie muszę oglądać, a bawię się doskonale 😜",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "\\\"A dla kogo ten wywiad? A dla widzów dziennika wieczornego. O, to bez kozery powiem pińcet\\\"",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Dwukrotny hymn Polski. Ale duma! ❤💪#Stoch #TCS #Bischofshofen",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "A kto ci wierzy pisowski oszuście?",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "Koszulka w jakiej cenie? wszystkie rozmiary dostępne?",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": ": za to elity PO zawsze były pełne empatii, współczucia i inteligencji emocjonalnej. Koń by się uśmiał.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "ma szanse zarobić ale te ceny to chyba promocja jakaś",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Kapuś pogania kapusia, kiła i mogiła komuna wraca ,",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "Po kiego chuja nakrecasz tych followersów",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Każdy miał taką sytuację, jedyna różnica to obecność kamer innych niż miejski monitoring... 😂",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "sama nie wierzyłaś przed sezonem...",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "moja rodzinka mówi na mnie dziennikarka, kocham",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "O strychy was nie podejrzewałem. Kiedy schodzicie do podziemia?",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Grali przez krotki okres od poczatku drugiej połowy z Chile i wygladalo to źle.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Nie tylko, to ci odpowiadam, chodzi o dorosłe dzieci, i to trzeba uściślić, Tusk podniósł z 520 na 1400, i tyle",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Pod i górę pod wiatr to więcej niż k2",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "to chyba nie ten Gucci.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Elo @anonymized_user ty zjebie w dupę że wsadź te ff",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "Pepe is an enormous dick.",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "To coś w Twoim stylu pajacu.",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "Jak można ukryć dom w którym się mieszka ? Pan poprostu zazdrości Panu premierowi zaufania do zony...",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "Patrząc na polską prawicę jest się od kogo uczyć",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Oooo też dziennikarstwo, tylko specjalizacja reklama, promocja i rzecznictwo prasowe! ale fajnie",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "ja: *bierze rutinoscorbin* ja: odporność na pełnej kurwie",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "I chyba wtedy byś niezaprzeczyla?",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "A równie dobrze można mówić o przekręcie w 2013 roku, gdy Bayern potrójną koronę zdobył.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Wystarczy, że Michniewicz i Matusiak oszukiwali podczas meczów 😂 na to jest zgoda, bo to kumple 😂",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "Jak narazie widać tylko to, że wasz interes jest najważniejszy. Banda złodziei i hipokrytów.",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "Czemu żaden tramwaj nie jedzie wtf",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Widać jak na dłoni, nowy homopisuarowiec to tylko atrapa z dykty",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "Socjologia - dobre narzędzie, jedno z tych, wykorzystywanych do robienia przez KK ludziom wody z mózgu.",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "Przykładnie ukarać i obciążyć kosztami odnowy elewacji..",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Nie maja honoru, nie wiedzą co to godność",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "zgadza się.Już w pierwszych minutach ewidentny karny dla Lechii po ręce Borysiuka",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "A niektórzy nadal się cieszą o popierają",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "U mnie skład podobny tylko za Boguskiego Brożek w ataku a na skrzydło przesunięty Ze Manuel.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Warto było palić w piecu śmieciami i jeździć kopcącym dieslem dla dwudziestostopniowej temperatury w listopadzie.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Bóg, honor, nacjonalizm - nie ma Boga , honor powyżej średniej, nacjonalizm to choroba a cnota to szacunek dla mniejszości",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Czuwam czy rewolucja się gdzieś nie tli.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "miał być doping a nie atmosfera jak na skokach narciarskich",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Problem w tym, że wy robicie z Polski kraj czwartego świata.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Proszę poczytać wpisy tutaj. Polactwo w pełnej krasie.",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "I zrobił całą resztę w kuku kierując ukradzione pieniądze z budżetu państwa do kościoła. To jest dopiero skurwysyństwo.",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "Imagine że ludzie potrafią śpiewać, malować, pisać, tańczyć, liczyć, wysoko skakać a ja... ja lubię spać",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "I dobrze bo postawiłem powyżej 1,5 bramki 😂",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Biedna kobieto. Ale wiem, lansu nigdy dość",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "Jak Ci się udało? Też chcę 🙇🙇🙇",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Oddziały wojskowe zdelegalizowany ONR, śniło mi się",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "nie no wiadomo że straty dzisiaj ogromne ale w ogólnym rachunku beda na duzym plusie",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Te masazyki w pierwszym zestawie wyglądają super",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "jedni wynajmują agencje do komentarzy a inni dziennikarzy",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "ostatnio ostrzegał w artykule przed transferami przez fundusz inwestycyjny bo wg niego przez to Twente bankrutuje 1/2",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Mój pan od anielskiego tez jest z lubuskiego!!!",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "miała zapewne na myśli młodą kanaliè😁😁😁😁😁",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "Jak można takie bydło nazywać panami i paniami....",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "Śmiać się czy płakać ?...",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Chłopak Dani jest po prostu brzydki idk",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "Trzęsący się jak galareta @anonymized_user bo sędzia na emeryturze zjadł parówkę",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "Sługo komuny ile jeszcze jadu z Twego pyska się wyleje?",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "Co innego taką panią zagrać, a co innego kurtyzaną być. Vide @anonymized_user i @cezarygmyz",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Myślę, że w zeszycie nie raz i nie dwa dostawałeś :D",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Nie wiem co moja mama teraz robi??? Miała mi podpisać papiery???",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "A podobno tam sami wykształceni i inteligentni😀",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Mnie też to drażni. Ile można o tym w kółko pierdzielić. Ale sam fakt budujący.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Każdy wie czego się nie mówi ale mamy mędy @anonymized_user @vega",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "Waserman ma spore szanse na wszystkie sondy ale przecież bez partii startuje wiec no name nic niezdziala",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Ale w kolejnym zdaniu jest już liczba poj.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "W tym czasie był z rodzinką na wakacjach w Gdańsku Brzeźnie to musiał zdalnie podtrzymywać związek",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Premier @anonymized_user w #Tychy: Tak, jak spełniamy nasze obietnice w rządzie, tak będziemy spełniać je w samorządzie. #Dotrzym…",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "mac miller nie żyje, co oboze",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Nieprawda mąka czuje żal do Wisły i to było głównym powodem",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "D o s t a ł a m o k r e s",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Okres czasu w chwili obecnej.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "ciekawe czy K pojechał na ten kontrakt do niemiec czy jednak został",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Was pojebało tak jak sędziowie to złodzieje, to policjanci to ćpuny, renciści, emeryci, albo kombinatorzy",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "W ekstraklasie zagrał 384 minuty, więc jakieś szanse dostał.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "ciężko będzie :/ obstawiam 15 tys",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "To powiedziałam ja @anonymized_user mgr prawa",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "To ja chyba tylko kolory porównywałem",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Gdzie ta ludzka ektoplazma @anonymized_user ?",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "I tylko Chuck Norris potrafił ze spalonego strzelić bramkę ;-)",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Zamknij japę, bo tyle zlego co kaczystan zrobił, nasze prawnuki bede naprawiać",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "Morawiecki senior robi w trąbę zmarłych, syn żywych. Taki podział ról.",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "Mówi że stare rapsy są całkiem niezle",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "To, że reprezentacja to nie miejsce do tego.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Jak jakiś będzie to poinformujemy.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Każdy kot stwierdzi, że wyłącznie poszlaka 😉",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Gratulacje!!! Straszny, ale w sumie nie żałuję, że paliłam. Podobnie, jak dziś nie żałuję, że rzuciłam. Potrzeba etapu ;-)",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Kolejny pieprzony lanser. My ich wszystkich znamy i możesz sobie takie teksty darować.",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "Dubstep to kompletnie nie moja bajka, ale to jest bajeczne ❤️ https://t.co/UhYvRsjofv",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Obraża no np wiesza lecha obok jp2",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Na szczęście jeszcze nie znam całego internetu na pamięć.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Dobra, ale obok niego biega wyżeł niemiecki, który ma jedną nogę dłuższą niż cały tułów.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "brawo.Drużyna bez gwiazd ale z charakterem :)",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Podane jest źródło ale wypowiedź jest zmanipulowana. Tak normalnie, po pisowsku.",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "W 15. minucie doleciał z Sewilli.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Kartkę za faul dostał Simoes (nr 8). Helder Lopes dostał za co innego czerwień bezpośrednio.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Nienawidzę jak mnie ludzie ignorują",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Ten znowu o majątku Premiera, lepiej napisz, ile w TVP zarobiłeś i gdzie się kasa z OFE POdziała, Lis(?)",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "Chłopaki się umówili, że jak Rachon zacznie gadać o burdelu u Stasia to wychodzimy. I tyle.😁😁😁",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "gwizdali na niego ? Bo nie oglądałem meczu :)",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "wiem, ale następnym razem mi powiedz wychodząc, że idziesz do TV to Ci go obleje niechcący kawą czy coś.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Rozumiem, że powinniśmy oczekiwać fali uchodżców z Węgier?",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Ej ja już mam normalnie wszystko na messengerze",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Nie potwierdzam, nie zaprzeczam 😎",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Z każdym wywiadem się coraz bardziej ośmiesza.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Podlasie za stanowczą interwencją, wszyscy z babcią herod @KrystPawlowicz",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "No to który punkt regulaminu został złamany ?",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Opiekunowie dzieci mają około 2300, opiekun opłacane składki emerytalne, zejdź na ziemię",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Przykład zamiany czerwonej książeczki na książeczkę czekową @anonymized_user potwierdzi?",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "No kurde,! Jestem pod wielkim wrażeniem przenikliwości ,trafnosci ocen. Umysł ze wszech miar wysoce analityczny.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "To w polskim sejmie jest jakaś opozycja? Ja widzę stado palantów.",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "Mnie niepokoi że tak nachodzą Pana Żurka, autentycznie, to nie jest normalnec",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Mi tez mama obcięła ✋🏻",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Wie Pani co to jest średnia?...no może matematyczka Pani Lubnauer podpowie.....",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "hej, widziałam, że studiujesz albo studiowałaś kognitywistykę komunikacji, jakieś wrażenia? Macie drugi stopień?",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "zobaczymy co da się zrobić :) najpierw musze je naostrzyć :)",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Są trunki 40% gdzie przy minus 30 mi na meczu niebedzie zimno 😀",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Zamknij niemiecki ryj,siedź w tej Brukseli i nie wracaj złodzieju!😬😬😬",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "Jednak umiejętność łączenia kropek to ja mam 😂",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Lot Andrzeja Dudy odwołany bo piloci otrzymali zaproszenie do Białego Domu od Donalda Trumpa :) #duda",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "#WyborySamorządowe będą żniwa #PlakatPolityczny 😉 \\u0026lt;zacieraręce\\u0026gt; 🤗",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Nie przypisuj mi swoich ambicji ;)",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Banda patafianów z Caballero na czele na boisku, a zmieniamy Aguero na Higuaina. Drugi do zmiany Pavon. 😂",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Wszystkie te firmy urosły za rządów PO, także sobie odwiedzaj",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "dokładnie od 8 lat, czyli od pierwszego tzw. marszu niepodległości",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Nie, nie muszą. I tak zazwyczaj wychodzi na jego.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "No nie ma u nas szczęścia 😉",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Glowa do góry superbohater jest w drodze @R_A_Ziemkiewicz",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Kiedy naoglądałam się Sabriny i myślałam że to Salem",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Znajoma pojechała dzis zmienić opony na zimówki. 2 godziny w kolejce, żeby usłyszeć od wulkanizatora: „przecież pani ma zimowe”.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Chętnie zapłacę za pranie tego śpiworka.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "zwracam honor.Była afera jednak :)",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Ale pechowy dzień dzisiaj :( kiedy następny?",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "a jak bedzie w rezerwach to rozwiązanie kontraktu i za darmo do Chin",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Myślę, że problem mógł być też ze słabą jakością względem wymagań finansowych.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Jak można ukryć dom w którym się mieszka ? Pan poprostu zazdrości Panu premierowi zaufania do zony...",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "Wszedłem na stronę pewnego portalu 24 i - nie uwierzycie - ani słowa o taśmie Graś-Kulczyk. Szok i niedowierzanie!",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "\\\"Nie czytaj mi z ruchu warg, kurczę pieczone\\\" 😀",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Kibice Lechii śpiewają coś o formie o puchary. Dobrze, że wiedzą, że jest coś takiego. Pewnie dzięki występom sąsiadki z Gdyni 😜",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Nowe pomysły, bo się poprzednia kasa skończyła?",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Nie cpaj marszu, mózg się gotuje od wrażeń",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "jak to nie problem cierzniaka ? To on musi udowodnić że Wisła łamie przepisy @anonymized_user @anonymized_user @mwantola",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Widać ze na Mazowszu ekstraklasowym się zakochali w grajkach Wisły",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "To proponuję spotkanie żeby to przedyskutować😁😁😁😁😁",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Dam nazwę na dm 😂",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Będzie klasykiem jak dzisiejszy mur Interu na Barcelonie ;D https://t.co/a1LQ9EPxSQ",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Jest obiektywnie. Liga rosyjska to troche inny świat w porównaniu do ESA.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Nie prościej byłoby kupić drugi ?😁😁😁",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "PLANY MOBILIZACYJNE WOT NA WYPADEK WOJNY Z DANIĄ ZAKŁADAJĄ ŻE ODDZIAŁ ZIEMOWITA KOSSAKOWSKIEGO ZAJMIE LEGOLAND",
+    "is_toxic": true,
+    "split": "train"
+  },
+  {
+    "text": "odstawaliśmy demograficznie od tych dwu wymienionych państw, Japonia miało ze 100 mln ludzi my ze 20",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Idzie w jakieś PL Tv?",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Ty to robisz przede wszystkim, co widać po pierwszym tweecie.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "luzik, już się przyzwyczaiłam XD nie będę się szybko starzeć, jeden plus hahahaha dziennikarstwo i komunikacja społeczna",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Tak, jest też wersja aerodynamiczna.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Jesteś Bonkowskim, gęgaczem uwiedzonym przez gnoma",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "To ciekawe, bo 10 Maradony zastrzeżona była.",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "Myślałem ze to tylko w Polsce możliwe ☺",
+    "is_toxic": false,
+    "split": "train"
+  },
+  {
+    "text": "A kto mu na to pozwolił?",
+    "is_toxic": false,
+    "split": "test"
+  },
+  {
+    "text": "Kołakowski przekroczył prędkość ryzykując wyrok",
+    "is_toxic": false,
+    "split": "test"
+  },
+  {
+    "text": "Zmienia się, ze już po wprowadzeniu VAR to nie było karane a teraz jest.",
+    "is_toxic": false,
+    "split": "test"
+  },
+  {
+    "text": "Cierzniak nie był w żadnym klubie kokosa tylko w rezerwach.Nikt mu takich rzeczy nie kazał robić ani biegać po schodach",
+    "is_toxic": false,
+    "split": "test"
+  },
+  {
+    "text": "Kop w dupę i do Watykanu się mądrzyć za swoją kasę !",
+    "is_toxic": true,
+    "split": "test"
+  },
+  {
+    "text": "Ciekawe czy się odezwie po fakcie, nie mow tak... rozmowa się kleiła?",
+    "is_toxic": false,
+    "split": "test"
+  },
+  {
+    "text": "napisali czy ktos jest nim zainteresowany ? Bo nie ma juz tej strony",
+    "is_toxic": false,
+    "split": "test"
+  },
+  {
+    "text": "Kocur z Krychowiakiem to jedyny zestaw w środku pola, który będzie dobrze funkcjonował przy 3-4-3.",
+    "is_toxic": false,
+    "split": "test"
+  },
+  {
+    "text": "Serdecznie dziękuję za wyrazy uznania po ostatnim komentowanym meczu mistrzostw świata. Będę się nadal starał utrzymać dobrą formę przekazu.",
+    "is_toxic": false,
+    "split": "test"
+  },
+  {
+    "text": "W tvp info usłyszałem że powstańcy zadali Niemcom poważne straty. Wg niemieckich dokumentów straty niemieckie 16 zabitych.",
+    "is_toxic": false,
+    "split": "test"
+  },
+  {
+    "text": "Ola wiedziała że chodził do burdelu. Nadaję panu @anonymized_user w kategorii zjeb roku 2018 pierwsze miejsce",
+    "is_toxic": true,
+    "split": "test"
+  },
+  {
+    "text": "Myślałem że to będzie lepsze zdjęcie😁😁😁",
+    "is_toxic": false,
+    "split": "test"
+  },
+  {
+    "text": "Odrę, świnkę i różyczkę chyba",
+    "is_toxic": false,
+    "split": "test"
+  },
+  {
+    "text": "mnie łapie cringe przez tą laske",
+    "is_toxic": false,
+    "split": "test"
+  },
+  {
+    "text": "Paradoksy futbolu. Wygrywasz z Armenią 2:1. Ludzie niezadowoleni. Przegrywasz z Realem 5:1. Ludzie zadowoleni. #REALEG #…",
+    "is_toxic": false,
+    "split": "test"
+  },
+  {
+    "text": "skąd wiesz jaki Skendija ma budżet skoro mówisz że jest bogatsza ? Tylko dwóch zawodników ponoć dobrze zarabia.",
+    "is_toxic": false,
+    "split": "test"
+  },
+  {
+    "text": "A ten drugi jaki zespół prowadzi ?",
+    "is_toxic": false,
+    "split": "test"
+  },
+  {
+    "text": "POLACY RATUJMY POLSKĘ OD ZLODZIEJI PO I LISA WOLJSDOJCZA",
+    "is_toxic": true,
+    "split": "test"
+  },
+  {
+    "text": "Robisz jeszcze? Jestem ciekawa jak narysujesz zayna z dzióbkiem :(",
+    "is_toxic": false,
+    "split": "test"
+  },
+  {
+    "text": "Nie poznałam Caroline na tym zdjęciu xdd",
+    "is_toxic": false,
+    "split": "test"
+  },
+  {
+    "text": "A sekretarka ma 12 mln udzałów spólce srebrna",
+    "is_toxic": true,
+    "split": "test"
+  },
+  {
+    "text": "Rozumiem, że standardowa polska rodzina to pierdolnięty stary kawaler zoofil i kot?",
+    "is_toxic": true,
+    "split": "test"
+  },
+  {
+    "text": "Zacznij się martwić jak spadnie do 317, póki co luz",
+    "is_toxic": false,
+    "split": "test"
+  },
+  {
+    "text": "a ile Nawałka zapłaciłby za zerwanie kontraktu ?",
+    "is_toxic": false,
+    "split": "test"
+  },
+  {
+    "text": "KUPIŁAM PIERWSZE AUTKO JAK KTOŚ CHCE ZDJĘCIE TO MOGĘ WYSŁAĆ NA DM JESTEM: W MIŁOŚCI",
+    "is_toxic": false,
+    "split": "test"
+  },
+  {
+    "text": "Pancerne pokolenie. Dziś mi z pamięci cytował fragmenty z Mickiewicza.",
+    "is_toxic": false,
+    "split": "test"
+  },
+  {
+    "text": "Skąd teraz będziesz miał informacje o frekwencji na Wiśle ?:(",
+    "is_toxic": false,
+    "split": "test"
+  },
+  {
+    "text": "Ustalono, że mecz będzie trwał 2x30 minut.",
+    "is_toxic": false,
+    "split": "test"
+  },
+  {
+    "text": "kocham vogule poland to mój list miłosny do chłopaków",
+    "is_toxic": false,
+    "split": "test"
+  },
+  {
+    "text": "włącza kołowrotek, a wyborcy pisu jak ćmy",
+    "is_toxic": true,
+    "split": "test"
+  },
+  {
+    "text": "Widać ludziom w Sączu tak pasuje. Ja bym mu w gębę napluł",
+    "is_toxic": true,
+    "split": "test"
+  },
+  {
+    "text": "To ciekawe. W Warszawie w tym roku naukę w I klasie zacznie tylko 11% #sześciolatki. 89% rodzice zostawiają w przedszkolach.",
+    "is_toxic": false,
+    "split": "test"
+  },
+  {
+    "text": "Będziemy przygotowywać się do zmiany konstytucji - powiedział Karczewski. Super, ale najpierw przygotujcie się na proces…",
+    "is_toxic": false,
+    "split": "test"
+  },
+  {
+    "text": "tez chce być bogata 😂😂",
+    "is_toxic": false,
+    "split": "test"
+  },
+  {
+    "text": "Jak ktoś taki jak pani mógł zostać posłem nie pojmuję tego",
+    "is_toxic": false,
+    "split": "test"
+  },
+  {
+    "text": "Tak czy siak wyglądam źle więc większej różnicy to mi nie robi",
+    "is_toxic": false,
+    "split": "test"
+  },
+  {
+    "text": "A Petru to chyba tylko po to żeby widzów wkurwić",
+    "is_toxic": false,
+    "split": "test"
+  },
+  {
+    "text": "e, ja już jedną w tym roku przeczytałam, wystarczy.",
+    "is_toxic": false,
+    "split": "test"
+  },
+  {
+    "text": "A w ostatniej kolejce gra Termalika z Korona wiec ktoras z tych druzyn na pewno nas nie przegoni",
+    "is_toxic": false,
+    "split": "test"
+  },
+  {
+    "text": "naprawdę sądzisz, że bym się tym przejęła? 😂",
+    "is_toxic": false,
+    "split": "test"
+  },
+  {
+    "text": "rzuć żonę, przejdź na buddyzm, przeprowadź sie z ukochaną na Barbados, zacznij ssać życie",
+    "is_toxic": false,
+    "split": "test"
+  },
+  {
+    "text": "Tomaszowi szkoda że PMM nie schował zarobionej kasy w LISIEJ NORZE. 😂😂😂",
+    "is_toxic": true,
+    "split": "test"
+  },
+  {
+    "text": "Chyba ty, chłop jak byk",
+    "is_toxic": false,
+    "split": "test"
+  },
+  {
+    "text": "i po co pompujesz balonik ?",
+    "is_toxic": false,
+    "split": "test"
+  },
+  {
+    "text": "Bez jaj żeby za takie akcje karne dawać takich akcji w każdym meczu jest kilka.",
+    "is_toxic": false,
+    "split": "test"
+  },
+  {
+    "text": "Podobno przed sejmem ustawili gilotynę.Mają obcinać ręce ubywatelom RP. Ręce, które podnieśli na władzę.",
+    "is_toxic": false,
+    "split": "test"
+  },
+  {
+    "text": "60% cancelled 40% delayed In first wave 😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂🤣😂😂😂😂😂😂😂😂😂🤣🤣😂😂😂😂😂😂😂🤣🤣🤣🤣🤣🤣😂😂😂😂",
+    "is_toxic": false,
+    "split": "test"
+  },
+  {
+    "text": "Ty i uczciwa? Nim bardziej załganej kobiety.",
+    "is_toxic": true,
+    "split": "test"
+  },
+  {
+    "text": "no, już się na życie ubezpieczyłam na wszelki wypadek, żeby mieli z czego pogrzeb zorganizować no nie 💁‍♀️",
+    "is_toxic": false,
+    "split": "test"
+  },
+  {
+    "text": "Wszyscy studenci mówią, ze podstawy prawa są okropne, ja tez to potwierdzam 😂 a co studiujesz?",
+    "is_toxic": false,
+    "split": "test"
+  },
+  {
+    "text": "Dalej biedny, hańba polski, Gowin nie ma na skromne święta",
+    "is_toxic": true,
+    "split": "test"
+  },
+  {
+    "text": "mowa była o faktach a nie Twoich odczuciach czy go uważasz za Polaka czy nie @Adrian891008",
+    "is_toxic": false,
+    "split": "test"
+  },
+  {
+    "text": "no to rzeczywiście najlepiej wystawiać najgorszego zawodnika ligi",
+    "is_toxic": false,
+    "split": "test"
+  },
+  {
+    "text": "Zaczekaj aż ten debil się dowie @R_A_Ziemkiewicz",
+    "is_toxic": true,
+    "split": "test"
+  },
+  {
+    "text": "Dla księży sodomitów, dla Petza",
+    "is_toxic": false,
+    "split": "test"
+  },
+  {
+    "text": "Pięknie dziękuję za wczorajsze życzenia. Bardzo miły dzień. Muszę zacząć częściej obchodzić urodziny.",
+    "is_toxic": false,
+    "split": "test"
+  },
+  {
+    "text": "Dołącz do kolegów w PiSie",
+    "is_toxic": false,
+    "split": "test"
+  },
+  {
+    "text": "On jest na poziomie pierdolnięty-zaawansowany, więc nie dziwi nic.",
+    "is_toxic": true,
+    "split": "test"
+  },
+  {
+    "text": "nieprawda bo też Atletico :)",
+    "is_toxic": false,
+    "split": "test"
+  },
+  {
+    "text": "no i kto tu jest pelikanem jak łykasz wszystko co powiedzą trenerzy i prezesi",
+    "is_toxic": true,
+    "split": "test"
+  },
+  {
+    "text": "Wybaczam ci że nie masz swastyki na ryju i na profilowym, mimo skarg",
+    "is_toxic": false,
+    "split": "test"
+  },
+  {
+    "text": "Bramkarz ponoć powinien mieć zryty beret :)",
+    "is_toxic": false,
+    "split": "test"
+  },
+  {
+    "text": "oczywiście że korzysta tylko że to nie jest Athletic Bilbao żeby grali prawie sami wychowankowie",
+    "is_toxic": false,
+    "split": "test"
+  },
+  {
+    "text": "Babcia kiedyś powiedziała, młody, w moim wieku. a ile pani ma lat? 87.",
+    "is_toxic": false,
+    "split": "test"
+  },
+  {
+    "text": "Finał będzie jeden, na neutralnym terenie ponoć 27 czerwca ;)",
+    "is_toxic": false,
+    "split": "test"
+  },
+  {
+    "text": "POLACY RATUJMY POLSKĘ OD ZLODZIEJI PO I LISA WOLJSDOJCZA",
+    "is_toxic": true,
+    "split": "test"
+  },
+  {
+    "text": "więc nie wiem co tak ciągle o tej Wiśle piszesz",
+    "is_toxic": false,
+    "split": "test"
+  },
+  {
+    "text": "towarzystwo będzie najlepsze jak znikniesz z horyzontu Panie Lis",
+    "is_toxic": true,
+    "split": "test"
+  },
+  {
+    "text": "I znowu łżesz jak bura suka. UE mówi całkowicie co innego niż wy do swoich moherów.",
+    "is_toxic": true,
+    "split": "test"
+  },
+  {
+    "text": "o, dwie różne sznurówki, faktycznie.",
+    "is_toxic": false,
+    "split": "test"
+  },
+  {
+    "text": "To jest totalny ignorant i pospolity kłamca.",
+    "is_toxic": true,
+    "split": "test"
+  },
+  {
+    "text": "Przecież wygrał w 2013 roku :)",
+    "is_toxic": false,
+    "split": "test"
+  },
+  {
+    "text": "No dobra, ale Kolumbijczycy to raczej w Europie grają :)",
+    "is_toxic": false,
+    "split": "test"
+  },
+  {
+    "text": "pewnie średnio, ludzie chętniej kupują udka czy piersi :-)",
+    "is_toxic": false,
+    "split": "test"
+  },
+  {
+    "text": "Był śmiech z Milika, ze nie umie celnie strzelić, to teraz poszedł krok dalej i nie umie celnie podać.",
+    "is_toxic": true,
+    "split": "test"
+  },
+  {
+    "text": "100 osób +/-5 salkanw sam raz, każda kolejna osoba to ścisk 😂😂😂",
+    "is_toxic": false,
+    "split": "test"
+  },
+  {
+    "text": "mi też tak mówią i serio wyglądam jak dzieciak a mam 20 lat lmao",
+    "is_toxic": false,
+    "split": "test"
+  },
+  {
+    "text": "Ssą wszystkimi otworami co tylko da się wessać",
+    "is_toxic": true,
+    "split": "test"
+  },
+  {
+    "text": "Chyba, że tradycyjnie wylosujemy Zakaukazie i mecze będą o 16 naszego czasu 😂",
+    "is_toxic": false,
+    "split": "test"
+  },
+  {
+    "text": "Właśnie tamtędy przejeżdżałam. Ludzie wchodzą na ulicę z tego ciasnego chodniczka tuż za tunelem, średnio bezpiecznie",
+    "is_toxic": false,
+    "split": "test"
+  },
+  {
+    "text": "Maddie z Ciebie nie będzie 😂",
+    "is_toxic": false,
+    "split": "test"
+  },
+  {
+    "text": "Znając mentalność PiS winny będzie ten kto widzi nie ten kto czyni.",
+    "is_toxic": true,
+    "split": "test"
+  },
+  {
+    "text": "Pełna zgoda. To skandal że zamykają przestępców ! Za PO się przecież z nimi dogadywano !",
+    "is_toxic": true,
+    "split": "test"
+  },
+  {
+    "text": "Bardzo chcę przeprosić Polaków za @anonymized_user @anonymized_user i za Kaczystan",
+    "is_toxic": false,
+    "split": "test"
+  },
+  {
+    "text": "Jak można porównywać premie dla rządu, który w dwa lata zrobił więcej niż poprzedni przez osiem okradał kraj i przyniósł straty #woronicza17",
+    "is_toxic": true,
+    "split": "test"
+  },
+  {
+    "text": "Gówno byś z spod siebie zjadł na przekór tym co inaczej od ciebie myślą to i towarzysza lewandowskiego też bronisz...dno.",
+    "is_toxic": true,
+    "split": "test"
+  },
+  {
+    "text": "To pieprzenie komunałów PAD że było warto,budzi we mnie niesmak. Drugi Tusk qrwa!",
+    "is_toxic": true,
+    "split": "test"
+  },
+  {
+    "text": "czyli dla Legii też nie ma miejsca @przeglad",
+    "is_toxic": false,
+    "split": "test"
+  },
+  {
+    "text": "Kiedyś lm96 w galerii w Wawie XDD",
+    "is_toxic": false,
+    "split": "test"
+  },
+  {
+    "text": "Ale nie piłkarze wychowani na Reymonta ;-)",
+    "is_toxic": false,
+    "split": "test"
+  },
+  {
+    "text": "A kiedyś się tak z niego naśmiewałeś :)",
+    "is_toxic": false,
+    "split": "test"
+  },
+  {
+    "text": "a jak wierzysz we wszystko co piszą dziennikarze to współczuje.",
+    "is_toxic": false,
+    "split": "test"
+  },
+  {
+    "text": "Każdy oszust i kłamca, jakim jest Morawiecki, musi się z tym liczyć.",
+    "is_toxic": true,
+    "split": "test"
+  },
+  {
+    "text": "no to rzeczywiście masz powody do zadowolenia.Prawie trafiłeś haha",
+    "is_toxic": false,
+    "split": "test"
+  },
+  {
+    "text": "Już nic nie będzie takie samo.",
+    "is_toxic": false,
+    "split": "test"
+  },
+  {
+    "text": "Po tym wszystkim prawo własności intelektualnej to ostatnia rzecz o której chce myśleć",
+    "is_toxic": false,
+    "split": "test"
+  },
+  {
+    "text": "Półgłówek Wieliński, wymyślił sobie półautorytaryzm!",
+    "is_toxic": false,
+    "split": "test"
+  },
+  {
+    "text": "Ty jesteś jebnięty, tła takiego parcha mam jechać przez pół polski",
+    "is_toxic": true,
+    "split": "test"
+  },
+  {
+    "text": "Gdyby był dzikiem to by go trener nie sadzał na ławce :P",
+    "is_toxic": false,
+    "split": "test"
+  },
+  {
+    "text": "stosowałam się nawet do gróźb karalnych, ale nawet mi w odpowiedzi nie zagroził art. 190 kk. Nienawistnie milczy.",
+    "is_toxic": false,
+    "split": "test"
+  }
+]
