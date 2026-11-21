@@ -95,28 +95,28 @@ function getRelationColor(relation: string) {
   const rel = relation.toLowerCase();
   if (rel.includes('sprzecz') || rel.includes('błęd') || rel.includes('kłam') || rel.includes('manip')) {
     return {
-      stroke: '#f43f5e',
-      bg: '#4c0519',
-      border: '#be123c',
-      text: '#fda4af',
+      stroke: '#B91C1C',
+      bg: '#FDF2F2',
+      border: '#FECACA',
+      text: '#B91C1C',
       marker: 'url(#arrow-rose)',
     };
   }
   if (rel.includes('gwarant') || rel.includes('oficjal') || rel.includes('zgodn') || rel.includes('finans') || rel.includes('potwierdz')) {
     return {
-      stroke: '#10b981',
-      bg: '#022c22',
-      border: '#047857',
-      text: '#6ee7b7',
-      marker: 'url(#arrow-emerald)',
+      stroke: '#3F5E2A',
+      bg: '#ECF5E8',
+      border: '#C8E0BE',
+      text: '#2D5A27',
+      marker: 'url(#arrow-forest)',
     };
   }
   return {
-    stroke: '#38bdf8',
-    bg: '#082f49',
-    border: '#0284c7',
-    text: '#7dd3fc',
-    marker: 'url(#arrow-cyan)',
+    stroke: '#9CA3AF',
+    bg: '#FFFFFF',
+    border: '#E6E8E2',
+    text: '#646A61',
+    marker: 'url(#arrow-neutral)',
   };
 }
 
@@ -128,27 +128,27 @@ function getNodeStyle(node: string) {
 
   if (isSelected || isHovered) {
     return {
-      fill: '#1e293b',
-      stroke: '#38bdf8',
+      fill: '#EDF2E7',
+      stroke: '#3F5E2A',
       strokeWidth: 2.5,
-      textColor: '#f8fafc',
+      textColor: '#181A17',
     };
   }
 
   if (isSubject) {
     return {
-      fill: '#0f2942',
-      stroke: '#0284c7',
+      fill: '#EDF2E7',
+      stroke: '#3F5E2A',
       strokeWidth: 2,
-      textColor: '#e0f2fe',
+      textColor: '#181A17',
     };
   }
 
   return {
-    fill: '#0f172a',
-    stroke: '#334155',
+    fill: '#FFFFFF',
+    stroke: '#D1D5DB',
     strokeWidth: 1.5,
-    textColor: '#cbd5e1',
+    textColor: '#181A17',
   };
 }
 
@@ -207,24 +207,24 @@ function handleNodeClick(node: string) {
 </script>
 
 <template>
-  <div class="rounded-2xl border border-slate-800/80 bg-slate-900/70 p-5 sm:p-6 shadow-xl backdrop-blur">
+  <div class="rounded-2xl border border-[#E6E8E2] bg-white p-5 sm:p-6 shadow-xs">
     <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-4">
       <div>
-        <h3 class="text-base sm:text-lg font-semibold text-white flex items-center gap-2">
-          <Network class="w-5 h-5 text-cyan-400" />
+        <h3 class="text-base sm:text-lg font-bold text-[#181A17] flex items-center gap-2">
+          <Network class="w-5 h-5 text-[#3F5E2A]" />
           <span>Wizualizacja Podgrafu Faktograficznego (Hybrid GraphRAG)</span>
         </h3>
-        <p class="text-xs text-slate-400">Powiązania semantyczne z bazy wiedzy wykorzystane do fact-checkingu twierdzeń</p>
+        <p class="text-xs text-[#646A61]">Powiązania semantyczne z bazy wiedzy wykorzystane do fact-checkingu twierdzeń</p>
       </div>
 
       <div class="flex items-center gap-2 self-start sm:self-auto">
-        <div class="flex items-center gap-1.5 p-1 rounded-xl bg-slate-950 border border-slate-800 text-xs">
+        <div class="flex items-center gap-1.5 p-1 rounded-xl bg-[#F6F7F4] border border-[#E6E8E2] text-xs">
           <button
             type="button"
             @click="activeView = 'svg'"
             :class="[
               'px-2.5 py-1 font-medium rounded-lg flex items-center gap-1.5 transition-all',
-              activeView === 'svg' ? 'bg-cyan-600 text-white shadow-sm' : 'text-slate-400 hover:text-slate-200'
+              activeView === 'svg' ? 'bg-[#3F5E2A] text-white shadow-xs' : 'text-[#646A61] hover:text-[#181A17]'
             ]"
           >
             <Eye class="w-3.5 h-3.5" />
@@ -235,7 +235,7 @@ function handleNodeClick(node: string) {
             @click="activeView = 'table'"
             :class="[
               'px-2.5 py-1 font-medium rounded-lg flex items-center gap-1.5 transition-all',
-              activeView === 'table' ? 'bg-cyan-600 text-white shadow-sm' : 'text-slate-400 hover:text-slate-200'
+              activeView === 'table' ? 'bg-[#3F5E2A] text-white shadow-xs' : 'text-[#646A61] hover:text-[#181A17]'
             ]"
           >
             <Table class="w-3.5 h-3.5" />
@@ -245,20 +245,20 @@ function handleNodeClick(node: string) {
       </div>
     </div>
 
-    <div v-if="edges.length === 0" class="py-12 text-center rounded-xl border border-slate-800/60 bg-slate-950/40">
-      <Network class="w-10 h-10 text-slate-600 mx-auto mb-2" />
-      <p class="text-sm text-slate-400">Brak powiązanych krawędzi w podgrafie dla tego wpisu.</p>
+    <div v-if="edges.length === 0" class="py-12 text-center rounded-xl border border-[#E6E8E2] bg-[#FAFBF9]">
+      <Network class="w-10 h-10 text-[#9CA3AF] mx-auto mb-2" />
+      <p class="text-sm text-[#646A61]">Brak powiązanych krawędzi w podgrafie dla tego wpisu.</p>
     </div>
 
     <div v-else-if="activeView === 'svg'" class="space-y-3">
-      <div class="relative w-full overflow-hidden rounded-xl border border-slate-800/90 bg-slate-950/90 shadow-inner">
+      <div class="relative w-full overflow-hidden rounded-xl border border-[#E6E8E2] bg-[#FAFBF9] shadow-xs">
         <svg
           viewBox="0 0 820 440"
           class="w-full h-auto min-h-[340px] max-h-[520px] select-none"
         >
           <defs>
             <marker
-              id="arrow-cyan"
+              id="arrow-neutral"
               viewBox="0 0 10 10"
               refX="8"
               refY="5"
@@ -266,7 +266,7 @@ function handleNodeClick(node: string) {
               markerHeight="6"
               orient="auto-start-reverse"
             >
-              <path d="M 0 1.5 L 9 5 L 0 8.5 z" fill="#38bdf8" />
+              <path d="M 0 1.5 L 9 5 L 0 8.5 z" fill="#9CA3AF" />
             </marker>
 
             <marker
@@ -278,11 +278,11 @@ function handleNodeClick(node: string) {
               markerHeight="6"
               orient="auto-start-reverse"
             >
-              <path d="M 0 1.5 L 9 5 L 0 8.5 z" fill="#f43f5e" />
+              <path d="M 0 1.5 L 9 5 L 0 8.5 z" fill="#B91C1C" />
             </marker>
 
             <marker
-              id="arrow-emerald"
+              id="arrow-forest"
               viewBox="0 0 10 10"
               refX="8"
               refY="5"
@@ -290,7 +290,7 @@ function handleNodeClick(node: string) {
               markerHeight="6"
               orient="auto-start-reverse"
             >
-              <path d="M 0 1.5 L 9 5 L 0 8.5 z" fill="#10b981" />
+              <path d="M 0 1.5 L 9 5 L 0 8.5 z" fill="#3F5E2A" />
             </marker>
           </defs>
 
@@ -301,8 +301,8 @@ function handleNodeClick(node: string) {
                   :d="computeEdgeCurve(edge[0], edge[2], idx)!.path"
                   fill="none"
                   :stroke="getRelationColor(edge[1]).stroke"
-                  :stroke-width="selectedNode && (selectedNode === edge[0] || selectedNode === edge[2]) ? 3 : 1.7"
-                  :stroke-opacity="selectedNode && (selectedNode !== edge[0] && selectedNode !== edge[2]) ? 0.2 : 0.85"
+                  :stroke-width="selectedNode && (selectedNode === edge[0] || selectedNode === edge[2]) ? 2.5 : 1.5"
+                  :stroke-opacity="selectedNode && (selectedNode !== edge[0] && selectedNode !== edge[2]) ? 0.25 : 0.85"
                   :marker-end="getRelationColor(edge[1]).marker"
                   class="transition-all duration-300"
                 />
@@ -316,11 +316,11 @@ function handleNodeClick(node: string) {
                     y="-10"
                     :width="Math.max(76, formatRelationLabel(edge[1]).length * 7.2)"
                     height="20"
-                    rx="6"
-                    :fill="getRelationColor(edge[1]).bg"
-                    :stroke="getRelationColor(edge[1]).border"
+                    rx="4"
+                    fill="#FFFFFF"
+                    stroke="#E6E8E2"
                     stroke-width="1"
-                    class="shadow"
+                    class="shadow-xs"
                   />
                   <text
                     x="0"
@@ -354,19 +354,18 @@ function handleNodeClick(node: string) {
                 y="-20"
                 width="130"
                 height="40"
-                rx="10"
+                rx="12"
                 :fill="getNodeStyle(node).fill"
                 :stroke="getNodeStyle(node).stroke"
                 :stroke-width="getNodeStyle(node).strokeWidth"
-                class="transition-all duration-200"
+                class="transition-all duration-200 shadow-xs"
               />
 
               <circle
-                x="-52"
                 cx="-48"
                 cy="0"
                 r="4"
-                :fill="node.toLowerCase().includes('wpis') ? '#38bdf8' : '#10b981'"
+                :fill="node.toLowerCase().includes('wpis') ? '#3F5E2A' : '#2D5A27'"
               />
 
               <text
@@ -384,28 +383,28 @@ function handleNodeClick(node: string) {
           </g>
         </svg>
 
-        <div class="absolute bottom-2.5 right-3 flex items-center gap-3 text-[10px] text-slate-400 bg-slate-900/90 border border-slate-800/80 px-2.5 py-1 rounded-lg backdrop-blur">
+        <div class="absolute bottom-2.5 right-3 flex items-center gap-3 text-[10px] text-[#646A61] bg-white/95 border border-[#E6E8E2] px-2.5 py-1 rounded-lg shadow-xs backdrop-blur-sm">
           <span class="flex items-center gap-1">
-            <span class="w-2 h-2 rounded-full bg-cyan-400"></span> Węzeł zapytania
+            <span class="w-2 h-2 rounded-full bg-[#3F5E2A]"></span> Węzeł zapytania
           </span>
           <span class="flex items-center gap-1">
-            <span class="w-2 h-2 rounded-full bg-emerald-400"></span> Fakt referencyjny
+            <span class="w-2 h-2 rounded-full bg-[#2D5A27]"></span> Fakt referencyjny
           </span>
           <span class="flex items-center gap-1">
-            <span class="w-2 h-2 rounded-full bg-rose-400"></span> Sprzeczność
+            <span class="w-2 h-2 rounded-full bg-[#B91C1C]"></span> Sprzeczność
           </span>
         </div>
       </div>
 
-      <div class="flex items-center justify-between text-xs text-slate-400 px-1">
+      <div class="flex items-center justify-between text-xs text-[#646A61] px-1">
         <span>Kliknij węzeł na grafie, aby wyróżnić jego połączenia i krawędzie.</span>
-        <span>Liczba węzłów: <strong class="text-slate-200">{{ uniqueNodes.length }}</strong>, relacji: <strong class="text-slate-200">{{ edges.length }}</strong></span>
+        <span>Liczba węzłów: <strong class="text-[#181A17]">{{ uniqueNodes.length }}</strong>, relacji: <strong class="text-[#181A17]">{{ edges.length }}</strong></span>
       </div>
     </div>
 
-    <div v-else class="overflow-x-auto rounded-xl border border-slate-800 bg-slate-950/60">
+    <div v-else class="overflow-x-auto rounded-xl border border-[#E6E8E2] bg-white">
       <table class="w-full text-left text-xs">
-        <thead class="bg-slate-900/90 text-slate-400 uppercase tracking-wider font-mono border-b border-slate-800">
+        <thead class="bg-[#FAFBF9] text-[#646A61] uppercase tracking-wider font-mono border-b border-[#E6E8E2]">
           <tr>
             <th class="px-4 py-3">Źródło (Węzeł A)</th>
             <th class="px-4 py-3">Relacja (Krawędź)</th>
@@ -413,9 +412,9 @@ function handleNodeClick(node: string) {
             <th class="px-4 py-3 text-right">Typ powiązania</th>
           </tr>
         </thead>
-        <tbody class="divide-y divide-slate-800/60 text-slate-300">
-          <tr v-for="(edge, idx) in edges" :key="idx" class="hover:bg-slate-900/40 transition-colors">
-            <td class="px-4 py-3 font-semibold text-slate-100 font-mono">
+        <tbody class="divide-y divide-[#E6E8E2] text-[#181A17]">
+          <tr v-for="(edge, idx) in edges" :key="idx" class="hover:bg-[#FAFBF9] transition-colors">
+            <td class="px-4 py-3 font-semibold text-[#181A17] font-mono">
               {{ formatNodeLabel(edge[0]) }}
             </td>
             <td class="px-4 py-3">
@@ -430,13 +429,13 @@ function handleNodeClick(node: string) {
                 {{ formatRelationLabel(edge[1]) }}
               </span>
             </td>
-            <td class="px-4 py-3 font-semibold text-slate-100 font-mono">
+            <td class="px-4 py-3 font-semibold text-[#181A17] font-mono">
               {{ formatNodeLabel(edge[2]) }}
             </td>
-            <td class="px-4 py-3 text-right text-slate-400">
-              <span v-if="edge[1].toLowerCase().includes('sprzecz') || edge[1].toLowerCase().includes('błęd')" class="text-rose-400 font-medium">Sprzeczność</span>
-              <span v-else-if="edge[1].toLowerCase().includes('gwarant') || edge[1].toLowerCase().includes('oficjal')" class="text-emerald-400 font-medium">Potwierdzenie</span>
-              <span v-else class="text-cyan-400 font-medium">Semantyka</span>
+            <td class="px-4 py-3 text-right text-[#646A61]">
+              <span v-if="edge[1].toLowerCase().includes('sprzecz') || edge[1].toLowerCase().includes('błęd')" class="text-[#B91C1C] font-medium">Sprzeczność</span>
+              <span v-else-if="edge[1].toLowerCase().includes('gwarant') || edge[1].toLowerCase().includes('oficjal')" class="text-[#2D5A27] font-medium">Potwierdzenie</span>
+              <span v-else class="text-[#646A61] font-medium">Semantyka</span>
             </td>
           </tr>
         </tbody>

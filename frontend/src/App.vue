@@ -70,7 +70,7 @@ function handleClear() {
 </script>
 
 <template>
-  <div class="min-h-screen bg-slate-950 text-slate-100 flex flex-col font-sans selection:bg-cyan-500 selection:text-white">
+  <div class="min-h-screen bg-[#F6F7F4] text-[#181A17] flex flex-col font-sans selection:bg-[#EDF2E7] selection:text-[#3F5E2A]">
     <Navbar
       v-model:useMock="useMock"
       :backendOnline="backendOnline"
@@ -78,17 +78,16 @@ function handleClear() {
     />
 
     <main class="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8 space-y-6">
-      <div class="relative overflow-hidden rounded-3xl bg-gradient-to-r from-slate-900 via-slate-900/90 to-cyan-950/40 border border-slate-800/90 p-6 sm:p-8 shadow-2xl">
-        <div class="absolute -right-16 -top-16 w-64 h-64 bg-cyan-500/10 rounded-full blur-3xl pointer-events-none"></div>
+      <div class="relative overflow-hidden rounded-2xl sm:rounded-3xl bg-white border border-[#E6E8E2] p-6 sm:p-8 shadow-xs">
         <div class="relative z-10 max-w-3xl space-y-2">
-          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-cyan-950/80 text-cyan-300 border border-cyan-800/60">
-            <Sparkles class="w-3.5 h-3.5 text-cyan-400" />
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-[#EDF2E7] text-[#3F5E2A] border border-[#DCE5D5]">
+            <Sparkles class="w-3.5 h-3.5 text-[#3F5E2A]" />
             Platforma Detekcji Dezinformacji i Analizy Stylu
           </div>
-          <h1 class="text-2xl sm:text-4xl font-extrabold tracking-tight text-white leading-tight">
-            Weryfikacja wypowiedzi politycznych metodą <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">Hybrid GraphRAG</span>
+          <h1 class="text-2xl sm:text-4xl font-extrabold tracking-tight text-[#181A17] leading-tight">
+            Weryfikacja wypowiedzi politycznych metodą <span class="text-[#3F5E2A]">Hybrid GraphRAG</span>
           </h1>
-          <p class="text-sm sm:text-base text-slate-400 leading-relaxed">
+          <p class="text-sm sm:text-base text-[#646A61] leading-relaxed">
             Wielopoziomowa ocena wiarygodności: klasyfikacja sentymentu i toksyczności, weryfikacja faktów na podgrafie referencyjnym oraz automatyczna neutralizacja stylu wypowiedzi.
           </p>
         </div>
@@ -106,12 +105,12 @@ function handleClear() {
 
       <div v-if="analysisResult" class="space-y-6 animate-in fade-in duration-500">
         <div class="flex items-center gap-2 pt-2">
-          <span class="h-px flex-1 bg-slate-800"></span>
-          <span class="text-xs font-mono uppercase tracking-widest text-slate-400 px-3 py-1 rounded-full bg-slate-900 border border-slate-800 flex items-center gap-1.5">
-            <ArrowDown class="w-3.5 h-3.5 text-cyan-400" />
+          <span class="h-px flex-1 bg-[#E6E8E2]"></span>
+          <span class="text-xs font-mono uppercase tracking-widest text-[#646A61] px-3 py-1 rounded-full bg-white border border-[#E6E8E2] flex items-center gap-1.5 shadow-xs">
+            <ArrowDown class="w-3.5 h-3.5 text-[#3F5E2A]" />
             Wyniki analizy i weryfikacji
           </span>
-          <span class="h-px flex-1 bg-slate-800"></span>
+          <span class="h-px flex-1 bg-[#E6E8E2]"></span>
         </div>
 
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
@@ -139,14 +138,14 @@ function handleClear() {
       </div>
     </main>
 
-    <footer class="mt-auto border-t border-slate-800/80 bg-slate-950 py-6 text-center text-xs text-slate-500">
+    <footer class="mt-auto border-t border-[#E6E8E2] bg-white py-6 text-center text-xs text-[#646A61]">
       <div class="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-3">
-        <div class="flex items-center gap-2 text-slate-400">
-          <Shield class="w-4 h-4 text-cyan-400" />
-          <span class="font-semibold text-slate-300">Dezinfo Guard</span>
+        <div class="flex items-center gap-2 text-[#646A61]">
+          <Shield class="w-4 h-4 text-[#3F5E2A]" />
+          <span class="font-semibold text-[#181A17]">Dezinfo Guard</span>
           <span>&mdash; WSEI NLP / Hybrid GraphRAG Disinformation Project</span>
         </div>
-        <div class="flex items-center gap-4 text-slate-500">
+        <div class="flex items-center gap-4 text-[#646A61]">
           <span>Vue 3 + TypeScript + Tailwind CSS</span>
           <span>FastAPI Backend</span>
         </div>
