@@ -29,16 +29,33 @@ class AnalyzeRequest(BaseModel):
     text: str = Field(..., description="Treść tweeta lub wypowiedzi do analizy")
 
 
-class AnalyzeResponse(BaseModel):
-    text: str
+class StyleModel(BaseModel):
     sentiment: str
     toxicity_score: float
     is_toxic: bool
+
+
+class FactCheckModel(BaseModel):
     verdict: str
     explanation: str
     censored_text: str
     neutralized_text: str
     subgraph_edges: list[list[str]]
+
+
+class AnalyzeResponse(BaseModel):
+    style: StyleModel
+    fact_check: FactCheckModel
+    original_text: str
+    text: str | None = None
+    sentiment: str | None = None
+    toxicity_score: float | None = None
+    is_toxic: bool | None = None
+    verdict: str | None = None
+    explanation: str | None = None
+    censored_text: str | None = None
+    neutralized_text: str | None = None
+    subgraph_edges: list[list[str]] | None = None
 
 
 @app.get("/health")
@@ -54,7 +71,24 @@ def analyze_tweet(payload: AnalyzeRequest):
     raw_edges = rag_res.get("subgraph_edges", [])
     subgraph_edges = [list(edge) for edge in raw_edges]
 
+    fact_check_data = {
+        "verdict": rag_res["verdict"],
+        "explanation": rag_res["explanation"],
+        "censored_text": rag_res["censored_text"],
+        "neutralized_text": rag_res["neutralized_text"],
+        "subgraph_edges": subgraph_edges,
+    }
+
+    style_data = {
+        "sentiment": style_res["sentiment"],
+        "toxicity_score": style_res["toxicity_score"],
+        "is_toxic": style_res["is_toxic"],
+    }
+
     return {
+        "style": style_data,
+        "fact_check": fact_check_data,
+        "original_text": payload.text,
         "text": payload.text,
         "sentiment": style_res["sentiment"],
         "toxicity_score": style_res["toxicity_score"],
