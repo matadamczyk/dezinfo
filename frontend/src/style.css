@@ -1,1 +1,19 @@
 @import "tailwindcss";
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  --color-page: #F6F7F4;
+  --color-card: #FFFFFF;
+  --color-border-subtle: #E6E8E2;
+  --color-primary-forest: #3F5E2A;
+  --color-primary-forest-hover: #324B21;
+  --color-sage: #EDF2E7;
+  --color-graphite: #181A17;
+  --color-muted-gray: #646A61;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  background-color: #F6F7F4;
+  color: #181A17;
+}
