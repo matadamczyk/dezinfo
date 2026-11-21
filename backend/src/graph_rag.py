@@ -1,24 +1,35 @@
 import os
 import re
 import json
-import time
 from pathlib import Path
 from typing import Any
 import networkx as nx
 import chromadb
 from sentence_transformers import SentenceTransformer
 from openai import OpenAI
+from dotenv import load_dotenv, find_dotenv
+
+dotenv_path = find_dotenv(usecwd=True)
+if dotenv_path:
+    load_dotenv(dotenv_path)
+else:
+    for candidate in [
+        Path(__file__).resolve().parent.parent.parent / ".env",
+        Path(__file__).resolve().parent.parent.parent / ".env.local",
+        Path(__file__).resolve().parent.parent / ".env",
+    ]:
+        if candidate.exists():
+            load_dotenv(candidate)
+            break
 
 _graph: nx.DiGraph | None = None
 _collection: Any | None = None
 _embedding_model: SentenceTransformer | None = None
 _wiki_data: list[dict] | None = None
 _demagog_data: list[dict] | None = None
-_llm_unavailable_until: float = 0.0
 
 VULGARITY_REGEX = re.compile(
-    r"\b(złodziej\w*|oszust\w*|zdrajc\w*|bandyt\w*|kłamc\w*|kłam\w*|śmieci?\w*|szmat\w*|idiot\w*|debil\w*|"
-    r"skurw\w*|jeb\w*|chuj\w*|pierd\w*|wypierdal\w*|szkodnik\w*|patologi\w*|bezczel\w*)\b",
+    r"\b(skurw\w*|jeb\w*|chuj\w*|huj\w*|pierd\w*|wypierdal\w*|pizd\w*|kutas\w*|szmat\w*|debil\w*|idiot\w*)\b",
     re.IGNORECASE,
 )
 
@@ -70,7 +81,6 @@ def build_knowledge_graph(wiki_items: list[dict], demagog_items: list[dict]) -> 
 
     for idx, item in enumerate(demagog_items):
         author = item.get("author", "").strip()
-        verdict = item.get("verdict", "").strip()
         quote = item.get("quote", "").strip()
         summary = item.get("summary", "").strip()
         combined_text = f"{quote} {summary}".lower()
@@ -86,16 +96,12 @@ def build_knowledge_graph(wiki_items: list[dict], demagog_items: list[dict]) -> 
         if matched_wiki:
             for entity in matched_wiki:
                 if author and author != entity:
-                    graph.add_edge(author, entity, relation="WYPOWIEDZIAŁ_SIĘ_O", verdict=verdict)
+                    graph.add_edge(author, entity, relation="WYPOWIEDZIAŁ_SIĘ_O")
         else:
             topic = extract_fact_topic(item, idx)
             graph.add_node(topic, node_type="topic")
             if author:
-                graph.add_edge(author, topic, relation="WYPOWIEDZIAŁ_SIĘ_O", verdict=verdict)
-            graph.add_edge(topic, verdict, relation="WERDYKT_FAKTU")
-
-        if author and verdict:
-            graph.add_edge(author, verdict, relation="OCENA_WYPOWIEDZI")
+                graph.add_edge(author, topic, relation="WYPOWIEDZIAŁ_SIĘ_O")
 
     return graph
 
@@ -124,25 +130,21 @@ def build_vector_index(
             "verdict": "",
             "summary": summary,
             "url": item.get("url", ""),
-            "quote": "",
         })
         ids.append(f"wiki_{idx}")
 
     for idx, item in enumerate(demagog_items):
         author = item.get("author", "")
-        quote = item.get("quote", "")
         summary = item.get("summary", "")
-        verdict = item.get("verdict", "")
-        doc_text = f"Wypowiedź ({author}): {quote}\nFakt: {summary}\nOcena: {verdict}"
+        doc_text = f"Fakt ({author}): {summary}" if author else summary
         documents.append(doc_text)
         metadatas.append({
             "source": "demagog",
             "title": author,
             "author": author,
-            "verdict": verdict,
+            "verdict": item.get("verdict", ""),
             "summary": summary,
             "url": item.get("url", ""),
-            "quote": quote,
         })
         ids.append(f"demagog_{idx}")
 
@@ -226,9 +228,7 @@ def extract_subgraph(
     if not edges and top_metas:
         first_meta = top_metas[0]
         entity = first_meta.get("author") or first_meta.get("title") or "Wpis_Publiczny"
-        verdict = first_meta.get("verdict") or "Brak danych"
         edges.append(("Wpis_Analizowany", "odnosi_się_do", str(entity)))
-        edges.append((str(entity), "status_faktu", str(verdict)))
         edges.append((str(entity), "baza_weryfikacyjna", "Demagog / Wikipedia"))
 
     return edges[:8]
@@ -249,18 +249,31 @@ def normalize_verdict_string(raw_verdict: str) -> str:
     return "NIEZWERYFIKOWANE"
 
 
+def resolve_model_name(client: OpenAI, default_model: str) -> str:
+    configured = os.getenv("LLM_MODEL")
+    if configured:
+        return configured
+    try:
+        models_response = client.models.list()
+        for item in models_response.data:
+            if "bielik" in item.id.lower():
+                return item.id
+    except Exception:
+        pass
+    return default_model
+
+
 def call_slm(
     text: str,
     context_docs: list[str],
     subgraph_edges: list[tuple[str, str, str]],
 ) -> dict | None:
-    global _llm_unavailable_until
-    if time.time() < _llm_unavailable_until:
+    api_key = os.getenv("API_KEY") or os.getenv("OPENAI_API_KEY")
+    if not api_key:
         return None
 
-    base_url = os.getenv("LLM_BASE_URL", "http://localhost:11434/v1")
-    api_key = os.getenv("LLM_API_KEY", "ollama")
-    model_name = os.getenv("LLM_MODEL", "llama3.2:3b")
+    base_url = os.getenv("LLM_BASE_URL", "https://ollama.com/v1")
+    default_model = "SpeakLeash/bielik-11b-v2.3-instruct:Q4_K_M"
 
     edges_representation = "\n".join([f"- ({s}) --[{r}]--> ({t})" for s, r, t in subgraph_edges])
     docs_representation = "\n\n".join(context_docs[:3])
@@ -268,7 +281,7 @@ def call_slm(
     system_instruction = (
         "Jesteś modułem weryfikacji faktów i neutralizacji dezinformacji. "
         "Na podstawie podanego kontekstu i powiązań grafu wiedzy oceniasz prawdziwość wypowiedzi, "
-        "cenzurujesz mowę nienawiści lub wulgaryzmy oraz przygotowujesz neutralną wersję.\n"
+        "cenzurujesz wulgaryzmy oraz przygotowujesz neutralną wersję.\n"
         "Zwróć WYŁĄCZNIE obiekt JSON o polach:\n"
         '{"verdict": "PRAWDA"|"FAŁSZ"|"MANIPULACJA"|"NIEZWERYFIKOWANE", '
         '"explanation": "zwięzłe uzasadnienie po polsku", '
@@ -284,16 +297,31 @@ def call_slm(
     )
 
     try:
-        client = OpenAI(base_url=base_url, api_key=api_key, timeout=3.0, max_retries=0)
-        completion = client.chat.completions.create(
-            model=model_name,
-            messages=[
-                {"role": "system", "content": system_instruction},
-                {"role": "user", "content": user_prompt},
-            ],
-            temperature=0.1,
-            max_tokens=500,
-        )
+        client = OpenAI(base_url=base_url, api_key=api_key, timeout=30.0, max_retries=0)
+        model_name = resolve_model_name(client, default_model)
+
+        try:
+            completion = client.chat.completions.create(
+                model=model_name,
+                messages=[
+                    {"role": "system", "content": system_instruction},
+                    {"role": "user", "content": user_prompt},
+                ],
+                temperature=0.1,
+                max_tokens=600,
+                response_format={"type": "json_object"},
+            )
+        except Exception:
+            completion = client.chat.completions.create(
+                model=model_name,
+                messages=[
+                    {"role": "system", "content": system_instruction},
+                    {"role": "user", "content": user_prompt},
+                ],
+                temperature=0.1,
+                max_tokens=600,
+            )
+
         raw_content = completion.choices[0].message.content or ""
         cleaned = raw_content.strip()
         if cleaned.startswith("```"):
@@ -312,7 +340,6 @@ def call_slm(
             "neutralized_text": str(parsed.get("neutralized_text", "")).strip() or text,
         }
     except Exception:
-        _llm_unavailable_until = time.time() + 10.0
         return None
 
 
@@ -334,7 +361,7 @@ def deterministic_fallback(
     best_dist = top_distances[0] if top_distances else 999.0
     source_type = best_meta.get("source", "")
 
-    if source_type == "demagog" and best_dist <= 12.0:
+    if source_type == "demagog" and best_dist <= 14.0:
         raw_verdict = best_meta.get("verdict", "")
         verdict = normalize_verdict_string(raw_verdict)
         explanation = best_meta.get("summary", "") or "Fakt zweryfikowany w bazie portalu Demagog."
